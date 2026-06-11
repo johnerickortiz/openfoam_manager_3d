@@ -1,0 +1,60 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Proyectos guardados (datos del usuario) ───────────────────────────────────
+*.json
+!package.json   # no excluir si hubiera package.json (no aplica aquí)
+
+# ── Casos OpenFOAM (pueden ser muy grandes) ───────────────────────────────────
+openfoam_cases/
+# Si quieres versionar casos de ejemplo, crea una carpeta 'examples/' separada
+
+# ── Resultados generados ──────────────────────────────────────────────────────
+*.foam
+*.vtk
+*.vtu
+*.pvd
+VTK/
+postProcessing/
+processor*/
+
+# ── Logs y temporales ─────────────────────────────────────────────────────────
+log.*
+*.log
+*.tmp
+*.bak
+
+# ── Imágenes y exportaciones generadas ───────────────────────────────────────
+*.png
+*.pdf
+*.xlsx
+*.csv
+
+# ── Distribuciones ────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.whl

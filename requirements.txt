@@ -1,0 +1,18 @@
+# OpenFOAM Manager 3D — Dependencias Python
+# Instalar con:
+#   pip install -r requirements.txt
+#
+# En sistemas con Python administrado (Ubuntu 23+):
+#   pip install -r requirements.txt --break-system-packages
+
+# ── Interfaz gráfica ──────────────────────────────────────────────────────────
+PyQt5>=5.15.0
+
+# ── Gráficas y análisis numérico ──────────────────────────────────────────────
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# ── Exportación de datos ──────────────────────────────────────────────────────
+pandas>=1.3.0
+openpyxl>=3.0.0
+scipy>=1.7.0
